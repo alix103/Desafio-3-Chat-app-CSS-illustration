@@ -1,0 +1,31 @@
+:root{
+
+}
+
+.background1 {
+    background-image: linear-gradient(
+      to top left,
+      hsl(264, 100%, 61%),
+      hsl(293, 100%, 63%)
+    );
+    width: 30%;
+    height: 80vh;
+    align-self: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0 0 1000px 1000px;
+}
+  
+.background2 {
+    background-color: hsl(0, 14%, 91%);
+    width: 25%;
+    height: 90vh;
+    align-self: flex-start;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 1000px 55px 0px 0px;
+}
