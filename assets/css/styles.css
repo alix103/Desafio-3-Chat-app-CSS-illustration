@@ -276,9 +276,55 @@ section{
     border-radius: 1000px 55px 0px 0px;
 }
 
-/*footer{
-    justify-content: flex-end;
-    margin-top: 50rem;
-    align-items: center;
-    text-align: center;
-}*/
+@media only screen and (max-width: 600px) {
+    body{
+        display: block;
+        margin-bottom: 15rem;
+    }
+
+    section{
+        flex-direction: column;
+    }
+    
+    .chat {
+        width: 15rem;
+        height: 520px;
+        margin-left: 8.5rem;
+        margin-right: 7rem;
+        margin-top: 0rem;
+        margin-bottom: 2.5rem;
+        box-shadow: 5px 9px 16px -3px var(--shadow);
+    }   
+    
+    .background1 {
+        background-image: linear-gradient(
+          to top left,
+          hsl(264, 100%, 61%),
+          hsl(293, 100%, 63%)
+        );
+        width: 50%;
+        height: 400px;
+        align-self: flex-start;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        border-radius: 0 0 1000px 1000px;
+    }
+      
+    .background2 {
+        width: 50%;
+        height: 400px;
+    }
+
+    .description-head,
+    .description-text {
+        text-align: center;
+    }
+
+    .description-text {
+        width: 70%;
+        margin: auto;
+    }
+
+}
