@@ -167,13 +167,13 @@ section{
     color: hsl(270, 20%, 96%);
 }
   
-.payt p {
+.pay p {
     font-size: 8px;
     margin-left: 5px;
 }
   
 .pay .amount {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
 }
 
@@ -226,12 +226,13 @@ section{
   color: hsl(270, 7%, 64%);
   font-size: 14px;
   width: 70%;
-  margin: auto;
+  /*margin: auto;*/
   font-weight: normal;
 }
 
 .descrip{
-    margin-left: 9rem;
+    margin-left: 8rem;
+    margin-right: 10rem;
     align-self: center;
 }
 
@@ -263,9 +264,9 @@ section{
     border-radius: 1000px 55px 0px 0px;
 }
 
-footer{
+/*footer{
     justify-content: flex-end;
     margin-top: 50rem;
     align-items: center;
     text-align: center;
-}
+}*/
